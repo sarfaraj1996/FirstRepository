@@ -1,0 +1,44 @@
+package com.maven.terrain;
+
+/**
+* 
+*/
+
+ 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+ 
+import com.maven.terrain.Login ;
+ 
+/**
+* @author Mukesh_50
+*
+*/
+public class VerifyLogin 
+{
+ 
+ 
+@Test
+public void verifyValidLogin()
+{
+System.setProperty("webdriver.gecko.driver","C:\\Users\\sarfaraja\\eclipse-SeleniumProject\\seleniumProject\\drivers\\geckodriver.exe");
+WebDriver driver=new FirefoxDriver();
+ 
+driver.manage().window().maximize();
+ 
+driver.get("http://demosite.center/wordpress/wp-login.php");
+ 
+Login login=new Login(driver);
+ 
+ 
+ 
+login.clickOnLoginButton();
+ 
+ 
+driver.quit();
+ 
+}
+ 
+ 
+}

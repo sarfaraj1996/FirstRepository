@@ -1,0 +1,22 @@
+package com.maven.terrain;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class test {
+	public static void main(String[] args) {
+		String baseURL= "https://www.facebook.com/";
+		 WebDriver driver = new ChromeDriver();
+		 driver.get(baseURL);
+		 WebElement searchBox = driver.findElement(By.id("email"));
+		 
+		 Actions builder= new Actions(driver);
+		 Actions seriesOfActions = builder;
+		 
+		 .moveToElement(searchBox).click();
+		 .keyDown(searchBox, Key.Shift);
+	}
+}

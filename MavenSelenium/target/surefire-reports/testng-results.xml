@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="79336" started-at="2021-09-17T12:51:00 IST" finished-at="2021-09-17T12:52:20 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="25748" started-at="2021-09-17T12:51:00 IST" finished-at="2021-09-17T12:51:26 IST">
+      <class name="com.maven.terrain.RecordingScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maven.terrain.RecordingScript@3913f206]" name="setup" is-config="true" duration-ms="5726" started-at="2021-09-17T12:51:00 IST" finished-at="2021-09-17T12:51:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.maven.terrain.RecordingScript@3913f206]" name="testParameterWithXML" duration-ms="19947" started-at="2021-09-17T12:51:06 IST" finished-at="2021-09-17T12:51:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.maven.terrain.RecordingScript -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="53512" started-at="2021-09-17T12:51:26 IST" finished-at="2021-09-17T12:52:20 IST">
+      <class name="com.maven.terrain.RecordingScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maven.terrain.RecordingScript@20999517]" name="setup" is-config="true" duration-ms="7267" started-at="2021-09-17T12:51:26 IST" finished-at="2021-09-17T12:51:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.maven.terrain.RecordingScript@20999517]" name="testParameterWithXML" duration-ms="46242" started-at="2021-09-17T12:51:34 IST" finished-at="2021-09-17T12:52:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.maven.terrain.RecordingScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
